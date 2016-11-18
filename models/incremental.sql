@@ -9,4 +9,4 @@
 }}
 
 
-select * from public.seed
+select * simple_seed_006.seed
