@@ -9,6 +9,8 @@ clean-targets: ["target"]  # directories removed by the clean task
 test-paths: ["test"]       # where to store test results
 data-paths: ["data"]       # load CSVs from this directory with `dbt seed`
 
+profile: user
+
 models:
     'DBT Integration Project':
 

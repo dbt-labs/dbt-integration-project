@@ -1,8 +1,8 @@
+
+-- TODO : add dist/sort keys
 {{
     config(
         materialized = 'table',
-        sort = 'id',
-        dist = 'id'
     )
 }}
 
