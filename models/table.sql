@@ -6,4 +6,4 @@
     )
 }}
 
-select * simple_seed_006.seed
+select * from simple_seed_006.seed
