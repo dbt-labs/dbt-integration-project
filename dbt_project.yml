@@ -13,4 +13,7 @@ profile: user
 
 models:
     'DBT Integration Project':
+        vars:
+            config_1: "default"
+            config_2: "default"
 
