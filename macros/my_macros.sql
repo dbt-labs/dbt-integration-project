@@ -1,6 +1,10 @@
 
 
 {% macro do_something(foo, bar) %}
-foo,{{foo}},bar,{{bar}}
+
+    select
+        '{{ foo }}' as foo,
+        '{{ bar }}' as bar
+
 {% endmacro %}
 
