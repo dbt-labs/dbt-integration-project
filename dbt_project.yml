@@ -1,5 +1,5 @@
 
-name: 'DBT Integration Project'
+name: dbt_integration_project
 version: '1.0'
 
 source-paths: ["models"]   # paths with source code to compile
@@ -13,5 +13,5 @@ macro-paths: ['macros']    # where to find macros
 profile: user
 
 models:
-    'DBT Integration Project':
+    dbt_integration_project:
 
