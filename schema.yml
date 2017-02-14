@@ -1,0 +1,6 @@
+
+
+table:
+    constraints:
+        unique:
+            - id
