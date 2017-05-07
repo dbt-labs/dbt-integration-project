@@ -4,4 +4,4 @@
     )
 }}
 
-select * from simple_dependency_006.seed
+select * from {{ this.schema }}.seed
