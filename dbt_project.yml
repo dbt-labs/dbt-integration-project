@@ -15,3 +15,5 @@ profile: user
 models:
     dbt_integration_project:
 
+repositories:
+  - "git@github.com:fishtown-analytics/internal-analytics.git"
