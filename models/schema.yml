@@ -1,6 +1,6 @@
 
 
-table:
+table_model:
     constraints:
         unique:
             - id
