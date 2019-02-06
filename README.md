@@ -6,11 +6,11 @@ This project contains two branches:
   - master
   - configs
 
-### Master
+### master
 
 The `master` branch doesn't require any configs to run.
 
 
-### Config
+### with-configs
 
-The `configs` branch _does_ require configs to run.
+The `with-configs` branch _does_ require configs to run.

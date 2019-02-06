@@ -8,6 +8,7 @@ target-path: "target"      # path for compiled code
 clean-targets: ["target"]  # directories removed by the clean task
 test-paths: ["test"]       # where to store test results
 data-paths: ["data"]       # load CSVs from this directory with `dbt seed`
+macro-paths: ['macros']    # where to find macros
 
 profile: user
 
@@ -16,4 +17,3 @@ models:
         vars:
             config_1: "default"
             config_2: "default"
-
