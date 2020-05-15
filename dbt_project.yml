@@ -1,6 +1,6 @@
-
 name: dbt_integration_project
 version: '1.0'
+config-version: 2
 
 source-paths: ["models"]   # paths with source code to compile
 analysis-paths: ["analysis"] # path with analysis files which are compiled, but not run
@@ -14,4 +14,3 @@ profile: user
 
 models:
     dbt_integration_project:
-
