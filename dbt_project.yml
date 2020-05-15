@@ -1,6 +1,6 @@
-
 name: dbt_integration_project
 version: '1.0'
+config-version: 2
 
 source-paths: ["models"]   # paths with source code to compile
 analysis-paths: ["analysis"] # path with analysis files which are compiled, but not run
@@ -12,8 +12,7 @@ macro-paths: ['macros']    # where to find macros
 
 profile: user
 
-models:
-    dbt_integration_project:
-        vars:
-            config_1: "default"
-            config_2: "default"
+vars:
+  dbt_integration_project:
+    config_1: "default"
+    config_2: "default"
