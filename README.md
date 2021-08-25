@@ -1,15 +1,15 @@
-
 # Sample DBT Project
+
 ## For integration tests
 
 This project contains two branches:
-  - master
-  - configs
+
+- master
+- configs
 
 ### master
 
 The `master` branch doesn't require any configs to run.
-
 
 ### with-configs
 
