@@ -21,22 +21,24 @@ The `with-configs` branch _does_ require configs to run.
 The dbt/1.0.0 branch updates the `dbt_project.yml` from
 
 ```
-source-paths: ["models"]   # paths with source code to compile
-analysis-paths: ["analysis"] # path with analysis files which are compiled, but not run
+source-paths: ["models"]
+analysis-paths: ["analysis"]
 ...
-test-paths: ["test"]       # where to store test results
+data-paths: ["data"]
+test-paths: ["test"]
 ```
 
 to
 
 ```
-model-paths: ["models"]   # paths with source code to compile
-analysis-paths: ["analyses"] # path with analysis files which are compiled, but not run
-...clean task
-test-paths: ["tests"]       # where to store test results
+model-paths: ["models"]
+analysis-paths: ["analyses"]
+...
+seed-paths: ["seed"]
+test-paths: ["tests"]
 ```
 
 to match v1.0.0 changes.
 
-### 1.0
-The 1.0 branch is just dbt/1.0.0 but with a branch name that looks like a float.
+### 1.1
+The 1.1 branch is just dbt/1.0.0 but with a branch name that looks like a float.

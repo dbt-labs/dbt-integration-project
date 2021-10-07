@@ -7,7 +7,7 @@ analysis-paths: ["analyses"] # path with analysis files which are compiled, but 
 target-path: "target"      # path for compiled code
 clean-targets: ["target"]  # directories removed by the clean task
 test-paths: ["tests"]       # where to store test results
-data-paths: ["data"]       # load CSVs from this directory with `dbt seed`
+deed-paths: ["seeds"]       # load CSVs from this directory with `dbt seed`
 macro-paths: ["macros"]    # where to find macros
 
 profile: user
